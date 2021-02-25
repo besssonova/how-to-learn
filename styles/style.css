@@ -18,7 +18,9 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   background-color: #f2f2f2;
- position: relative;
+  position: relative;
+  display: flex;
+  flex-direction: row; 
   
 }
 
@@ -47,11 +49,9 @@
 .header__title {
   
   margin:auto;
-  display: flex;
-  border: 1px solid red;
+  margin-left: 64px;
   font-size: 102px;
   font-weight: bold;
-  
   flex-direction: row; 
   align-content: center;
   width: 730px;
