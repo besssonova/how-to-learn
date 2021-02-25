@@ -23,12 +23,12 @@
 }
 
  .logo {
-  position: absolute;
+  
   
 } 
 
 .logo_place_header {
-  
+  position: absolute;
   top: 30px;
   left: 64px;
   width: 183px;
@@ -36,21 +36,41 @@
 }
 
 .flex-row { 
-  margin-top: auto;
+  
+  
   display: flex;
   flex-direction: row; 
   
-  width: 730px;
 }
   
 
 .header__title {
   
-  
-  
+  margin:auto;
+  display: flex;
   border: 1px solid red;
   font-size: 102px;
+  font-weight: bold;
   
+  flex-direction: row; 
+  align-content: center;
+  width: 730px;
+  z-index: 2;
+}
+
+.header__subtitle {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 2;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
