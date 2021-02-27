@@ -97,6 +97,9 @@
 }
 
 .feynman {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column; 
   height: 790px;
   background-color: #f2f2f2;
   position: relative;
@@ -105,10 +108,35 @@
 .feynman__image {
   position: absolute;
   bottom: 0;
-  left: 0%;
+  left: 0;
   height: 637px;
   width: 867px;
+  
   z-index: 0;
+}
+
+.feynman__title {
+  margin: 0 auto;
+  align-content: center;
+  font-size: 120px;
+  text-align: center;
+  line-height: 1.15;
+  font-weight: bold;
+  width: 648px;
+ 
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  margin: 70px auto;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.feynman__link {
+  
 }
 
 /* и элемента с модификатором вида ключ-значение */
