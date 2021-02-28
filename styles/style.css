@@ -10,7 +10,7 @@
   
 }
 
-/* div { border: 1px solid red;} */
+/* Хедер */
 
 .header {
   height: 100vh;
@@ -74,7 +74,6 @@
   color: #2f80ed;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   top: 64px;
@@ -94,6 +93,8 @@
   z-index: 1;
   
 }
+
+/* Секция Главные проблемы в обучении */
 
 .two-columns {
 
@@ -138,6 +139,73 @@
 .two-columns__paragraph:nth-last-of-type(1) {
   margin-bottom: 0;
 }
+
+/* Секция Цифры и факты */
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.section__title {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.section__subtitle {
+  margin: auto;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  
+}
+
+
+.table {
+  margin: auto;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  
+
+}
+
+.table__cell {
+  width: 250px;
+  margin-top:  60px;
+  
+}
+
+.table__heading {
+  margin: auto;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+.table__text {
+  margin: 20px auto 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  
+}
+
+
+/* Секция Метод Фейнмана */
 
 .feynman {
   padding-top: 100px;
