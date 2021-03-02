@@ -51,7 +51,7 @@
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
-  flex-direction: row; 
+  flex-direction: row;
   align-content: center;
   width: 730px;
   z-index: 2;
@@ -238,7 +238,7 @@
 .feynman {
   padding-top: 100px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   height: 790px;
   background-color: #f2f2f2;
   position: relative;
