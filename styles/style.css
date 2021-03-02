@@ -309,11 +309,9 @@
   background-color: #1f1f1f;
   min-height: 350px;
   display: flex;
-  border: 1px solid red;
 }
 
 .footer__columns {
-  border: 1px solid red;
   margin: 60px auto 40px;
   display: flex;
   flex-direction: row;
@@ -328,15 +326,14 @@
 .footer__column_content_copyright {
   flex-basis: 711px;
   position: relative;
-  border: 1px solid red;
   
 }
 
 .logo_place_footer {
   width: 183px;
   height: 35px;
+  background-size: 183px 35px;
   background-image: url(../images/logo_place_footer.svg);
-  border: 1px solid red;
 }
 
 .footer__author {
@@ -347,25 +344,27 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  border: 1px solid red;
   
 }
 
 
 
 .footer__column_content_info {
-  border: 1px solid red;
   
-  flex-direction: column;
 
 }
 
 .footer__column-heading {
+  margin: 0 auto 20px;
   line-height: 30px;
-  font-weight: 18px;
+  font-size: 18px;
   font-weight: bold;
-  border: 1px solid red;
 
+
+}
+
+.footer__column-links {
+  margin: 0 auto 16px;
 }
 
 .footer__column-link {
@@ -375,15 +374,11 @@
   font-size: 18px;
   font-weight: normal;
   display: block;
-  border: 1px solid red;
-  
-
   
 }
 
 
 .footer__column_content_social {
-  border: 1px solid red;
   
   
 }
