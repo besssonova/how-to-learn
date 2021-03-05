@@ -36,9 +36,8 @@
 }
   
 .header__title {
-  
   align-self: center;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
@@ -168,6 +167,7 @@
 }
 
 .table {
+  padding: 0;
   margin: auto;
   margin-bottom: 100px;
   display: flex;
@@ -313,6 +313,10 @@
   color: white;
 }
 
+.footer__column {
+
+}
+
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
@@ -348,6 +352,11 @@
 .footer__column-links {
   margin: 0 auto 16px;
   padding: 0;
+  
+}
+
+.footer__list-item {
+  list-style-type: none;
 }
 
 .footer__column-link {
@@ -357,7 +366,6 @@
   font-size: 18px;
   font-weight: normal;
   display: block;
-  list-style-type: none;
   text-align: start;
 }
 
