@@ -1,0 +1,25 @@
+.video {
+  position: relative;
+  outline: 1px solid red;
+}
+
+.video__iframes {
+  margin: auto;
+  position: absolute;
+  top: auto;
+  left: auto;
+  
+  outline: 1px solid red;
+}
+
+.video__iframe {
+  outline: 1px solid red;
+  
+  width: 515px;
+  height: 316px;
+  margin: 0 20px 0 0;
+}
+
+.video__iframe:last-child {
+  margin: 0;
+}
