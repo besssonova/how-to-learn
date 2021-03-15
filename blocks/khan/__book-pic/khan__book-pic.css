@@ -1,0 +1,13 @@
+.khan__book-pic {
+    width: 620px;
+    height: 608px;
+    background-size: cover;
+    margin-right: 48px;
+    object-position: top;
+    object-fit: cover;
+    
+  }
+
+  .khan__book-pic:hover {
+    object-fit: contain;
+  }
