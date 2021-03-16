@@ -1,0 +1,14 @@
+.video__item {
+    transform: translate(0, 50px);
+    transition: transform 0.4s ease-in;
+    margin: 0 20px 0 0;
+    
+}
+
+.video__item:last-of-type {
+    margin: 0;
+  }
+
+  .video__item:hover {
+    transform: scale(1.01);
+  }
