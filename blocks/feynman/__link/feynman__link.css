@@ -9,3 +9,7 @@
     text-decoration: none;
     z-index: 1;
   }
+
+.feynman__link:hover {
+  text-shadow: 2px 2px 3px rgb(116, 113, 111);
+}

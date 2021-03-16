@@ -2,3 +2,7 @@
   text-decoration: none;
   color: #2f80ed;
   }
+
+  .header__link:hover {
+    text-shadow: 2px 2px 3px rgb(116, 113, 111);
+  }

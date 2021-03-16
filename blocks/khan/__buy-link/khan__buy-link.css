@@ -3,4 +3,9 @@
     line-height: 42px;
     font-weight: normal;
     color: #2f80ed;
+    align-self: flex-start;
   }
+
+.khan__buy-link:hover {
+  text-shadow: 2px 2px 3px rgb(116, 113, 111);
+}
